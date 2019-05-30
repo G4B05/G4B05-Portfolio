@@ -1,7 +1,7 @@
 # G4B05-Portfolio
 Programming portfolio
 
-&copy; Copyright 2019-2019 Gabriel Szabo
+&copy; Copyright 2019-2019 Gabriel Szabo (alias G4B05)
 
 This product includes software developed by Gabriel Szabo
 
