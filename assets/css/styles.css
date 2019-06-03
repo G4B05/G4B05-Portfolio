@@ -5,14 +5,9 @@ body {
     background-color: antiquewhite
 }
 
-#media {
-    position: absolute;
-    padding: 20px 20px;
-    right: 0px;
-    z-index: 10;
-}
-
 #lead {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     overflow: hidden;
     padding: 30px 15px 10px 15px;
@@ -20,9 +15,16 @@ body {
     background-size: auto;
 }
 
+#lead-media {
+    flex: none;
+    z-index: 2;
+    margin-top: 3px;
+}
+
 #lead-content {
-    position: relative;
-    z-index: 10;
+    flex: auto;
+    z-index: 2;
+    margin-right: 50px;
 }
 
     #lead-content h1 {
@@ -30,14 +32,15 @@ body {
         font-weight: 900;
         font-size: 2em;
         text-transform: uppercase;
-        letter-spacing: 0.05em;
-        line-height: 0.9em;
+        letter-spacing: 0.06em;
+        margin-top: 0;
     }
 
     #lead-content h2 {
         color: #a0cfee;
         font-weight: 500;
-        font-size: 1em;
+        font-size: 1.1em;
+        letter-spacing: 0.18em;
         margin-bottom: 15px;
     }
 
