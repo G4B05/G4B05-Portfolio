@@ -10,7 +10,7 @@ body {
     flex-wrap: wrap;
     position: relative;
     overflow: hidden;
-    padding: 30px 15px 10px 15px;
+    padding: 60px 15px 10px 15px;
     background: url(../images/lead-bg.jpg);
     background-size: auto;
 }
@@ -19,6 +19,10 @@ body {
     flex: none;
     z-index: 2;
     margin-top: 3px;
+}
+
+.color-media {
+    color: rgba(79, 96, 252, 0.856);
 }
 
 #lead-content {
@@ -57,12 +61,18 @@ body {
 }
 
 #about {
-    padding: 20px 15px;
+    padding: 20px 5px;
     border-bottom: 1px solid #dcd9d9;
 }
 
     #about h2 {
         color: #374054;
+    }
+
+    #about img {
+        width: 7em;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 .heading {
@@ -87,6 +97,14 @@ body {
 
 .shadow {
     box-shadow: 
-        2px 2px 5px rgba(0,0,0,0.12), 
-        2px 2px 5px rgba(0,0,0,0.24);
+        0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border-red {
+    border: solid 3px #ff7347;
+}
+
+.border-blue {
+    border: solid 3px #4773ff;
 }
