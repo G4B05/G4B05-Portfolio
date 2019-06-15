@@ -8,7 +8,7 @@ body {
 
 #lead {
     position: relative;
-    padding: 30px 15px 10px 15px;
+    padding: 20px 15px 10px 15px;
     background: url(../images/lead-bg.jpg);
     background-size: auto;
 }
@@ -24,22 +24,28 @@ body {
     z-index: 2;
 }
 
-    #lead-content h1 {
-        color: #ebebeb;
-        font-weight: 900;
-        font-size: 2em;
-        text-transform: uppercase;
-        letter-spacing: 0.06em;
-        margin-top: 0;
-    }
+#lead-content h3 {
+    color: #a0cfee;
+    font-size: 4em;
+    font-family: 'Wallpoet', cursive;
+    letter-spacing: 0.03em;
+}
 
-    #lead-content h2 {
-        color: #a0cfee;
-        font-weight: 500;
-        font-size: 1.1em;
-        letter-spacing: 0.18em;
-        margin-bottom: 15px;
-    }
+#lead-content h1 {
+    color: #ebebeb;
+    font-weight: 900;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+#lead-content h2 {
+    color: #a0cfee;
+    font-weight: 500;
+    font-size: 1.1em;
+    letter-spacing: 0.18em;
+    margin-bottom: 15px;
+}
 
 .color-media {
     color: #a0cfee;
